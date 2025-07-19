@@ -4,6 +4,7 @@ import { CiLogin } from "react-icons/ci";
 import { Link } from 'react-router-dom';
 import '../css/nav.css'
 import { useAuth } from '../context/AuthContext';
+import { BUSINESS_NAME } from './config/Constant';
 const CustomNavbar = () => {
   const [links,newLinks]=useState([
     {name:'Home',link:""},
@@ -32,7 +33,7 @@ const CustomNavbar = () => {
     <Navbar className='shadow-lg dark:bg-gray-700 dark:text-white text-black fixed top-0  w-full z-50' fluid rounded>
       <NavbarBrand  href="https://flowbite-react.com">
         <img src="/react.svg" className="mr-3 h-6 sm:h-9 rounded" alt="Flowbite React Logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold text-black dark:text-white">MindIt-Up</span>
+        <span className="self-center whitespace-nowrap text-xl font-semibold text-black dark:text-white">{BUSINESS_NAME}</span>
       </NavbarBrand>
        <div className="flex  gap-3 md:order-2">
             
