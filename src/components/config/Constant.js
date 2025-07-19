@@ -1,0 +1,10 @@
+export const ROLE_ADMIN="ROLE_ADMIN"
+export const ROLE_GUEST="ROLE_GUEST"
+export const COUNTER_INCREMENTED = "counter/incremented"
+export const COUNTER_DECREMENTED = "counter/decremented"
+export const PAGE_SIZE = import.meta.env.VITE_PAGE_SIZE
+export const KEY_ID =import.meta.env.VITE_KEY_ID
+export const BUSINESS_NAME = import.meta.env.VITE_BUSINESS_NAME
+export const BUSINESS_DESCRIPTION = import.meta.env.VITE_BUSINESS_DESCRIPTION
+export const STATUS_PAID = "PAID"
+export const STATUS_PENDING = "PENDING"

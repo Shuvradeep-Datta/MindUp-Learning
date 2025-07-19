@@ -1,0 +1,4 @@
+.activaing li a.active {
+  font-weight: bold;
+  color: red;
+}
